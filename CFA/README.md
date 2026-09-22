@@ -20,7 +20,11 @@ A self-paced, exam-focused course covering the **entire 2027 CFA Level I curricu
 | See the study method (why the order is what it is) | [`docs/00-orientation/study-method.md`](docs/00-orientation/study-method.md) |
 | Set up your BA II Plus | [`docs/00-orientation/calculator-guide.md`](docs/00-orientation/calculator-guide.md) |
 | See the full 5-month plan | [`docs/study-plan/master-plan.md`](docs/study-plan/master-plan.md) |
+| Browse all ten topics | [`docs/topics/`](docs/topics/) |
 | Start studying today | [`docs/topics/01-financial-statement-analysis/`](docs/topics/01-financial-statement-analysis/) |
+| Drill formulas (Fridays) | [`resources/formula-sheet.md`](resources/formula-sheet.md) |
+| Look up a term precisely | [`resources/glossary.md`](resources/glossary.md) |
+| Plan the final six weeks | [`docs/study-plan/revision-phase.md`](docs/study-plan/revision-phase.md) |
 | Track progress | [`trackers/progress-tracker.md`](trackers/progress-tracker.md) |
 
 ---
@@ -59,14 +63,17 @@ because it is the single largest block and rewards long, slow exposure rather th
 
 ```
 docs/
-  00-orientation/     exam mechanics, study method, calculator setup, glossary of exam verbs
-  study-plan/         master plan, month-by-month schedules, revision phase, exam-week plan
-  topics/             ten topic folders, one Markdown file per learning module
-resources/            formula sheet, glossary, mock-exam tracker, question bank guide
-trackers/             progress tracker, daily log template, weak-area log
-scripts/              progress reporting + publishing helpers
+  00-orientation/     exam-overview · how-to-use-this-course · study-method · calculator-guide
+  study-plan/         master-plan · month-01…month-05 · revision-phase
+  topics/             README index + ten topic folders, one file per learning module
+resources/            formula-sheet · glossary · mock-exam-tracker
+trackers/             progress-tracker · daily-log · weak-areas
+scripts/              progress.py · publish-to-cfa-repo.sh
 curriculum.json       machine-readable index of every topic, module, and hour allocation
 ```
+
+**134 files. 102 learning modules. Plain Markdown throughout** — nothing to build, nothing to
+install, and every file is readable on a phone through the GitHub app on the commute.
 
 ### Anatomy of a learning-module file
 
@@ -92,6 +99,29 @@ Every one of the 102 module files follows the same shape, so the routine never c
   spent answering questions, not consuming material.
 - **Log every miss.** [`trackers/weak-areas.md`](trackers/weak-areas.md) is the highest-value file in
   this repo by the final month.
+
+---
+
+## The two scripts
+
+**`scripts/progress.py`** — reads the tracker and tells you where you stand. Standard library
+only; no installation.
+
+```
+python3 scripts/progress.py              # per-topic and overall completion
+python3 scripts/progress.py --next       # the next unfinished module
+python3 scripts/progress.py --day 47     # where you should be on day 47, vs where you are
+python3 scripts/progress.py --remaining  # hours left, by topic
+```
+
+**`scripts/publish-to-cfa-repo.sh`** — copies this course out into a standalone repository of its
+own. Create an empty private repo on GitHub first (no README, no .gitignore, no licence), then:
+
+```
+./scripts/publish-to-cfa-repo.sh <your-github-username>
+```
+
+It stages the course, makes one clean commit, and pushes to `main`. Re-running it is safe.
 
 ---
 
