@@ -1,0 +1,810 @@
+{
+  "exam": "CFA Level I",
+  "curriculum_year": 2027,
+  "plan": {
+    "days": 150,
+    "hours": 750,
+    "core_hours_per_day": 4,
+    "ethics_hours_per_day": 1,
+    "total_hours_per_day": 5
+  },
+  "topics": [
+    {
+      "order": 1,
+      "slug": "01-financial-statement-analysis",
+      "name": "Financial Statement Analysis",
+      "short": "FSA",
+      "weight": "11-14%",
+      "month": 1,
+      "days": 20,
+      "hours": 80,
+      "day_start": 1,
+      "day_end": 20,
+      "parallel": false,
+      "module_count": 12,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Introduction to Financial Statement Analysis",
+          "hours": 4,
+          "file": "docs/topics/01-financial-statement-analysis/lm-01-introduction-to-financial-statement-analysis.md"
+        },
+        {
+          "lm": 2,
+          "name": "Analyzing Income Statements",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-02-analyzing-income-statements.md"
+        },
+        {
+          "lm": 3,
+          "name": "Analyzing Balance Sheets",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-03-analyzing-balance-sheets.md"
+        },
+        {
+          "lm": 4,
+          "name": "Analyzing Statements of Cash Flows I",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-04-analyzing-statements-of-cash-flows-i.md"
+        },
+        {
+          "lm": 5,
+          "name": "Analyzing Statements of Cash Flows II",
+          "hours": 6,
+          "file": "docs/topics/01-financial-statement-analysis/lm-05-analyzing-statements-of-cash-flows-ii.md"
+        },
+        {
+          "lm": 6,
+          "name": "Analysis of Inventories",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-06-analysis-of-inventories.md"
+        },
+        {
+          "lm": 7,
+          "name": "Analysis of Long-Term Assets",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-07-analysis-of-long-term-assets.md"
+        },
+        {
+          "lm": 8,
+          "name": "Topics in Long-Term Liabilities and Equity",
+          "hours": 7,
+          "file": "docs/topics/01-financial-statement-analysis/lm-08-topics-in-long-term-liabilities-and-equity.md"
+        },
+        {
+          "lm": 9,
+          "name": "Analysis of Income Taxes",
+          "hours": 8,
+          "file": "docs/topics/01-financial-statement-analysis/lm-09-analysis-of-income-taxes.md"
+        },
+        {
+          "lm": 10,
+          "name": "Financial Reporting Quality",
+          "hours": 5,
+          "file": "docs/topics/01-financial-statement-analysis/lm-10-financial-reporting-quality.md"
+        },
+        {
+          "lm": 11,
+          "name": "Financial Analysis Techniques",
+          "hours": 6,
+          "file": "docs/topics/01-financial-statement-analysis/lm-11-financial-analysis-techniques.md"
+        },
+        {
+          "lm": 12,
+          "name": "Introduction to Financial Statement Modeling",
+          "hours": 4,
+          "file": "docs/topics/01-financial-statement-analysis/lm-12-introduction-to-financial-statement-modeling.md"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "02-quantitative-methods",
+      "name": "Quantitative Methods",
+      "short": "QM",
+      "weight": "6-9%",
+      "month": "1 & 5",
+      "days": 30,
+      "hours": 120,
+      "day_start": 21,
+      "day_end": 150,
+      "parallel": false,
+      "split": [
+        {
+          "part": "A",
+          "label": "LM1-LM5",
+          "month": 1,
+          "days": 10,
+          "hours": 40,
+          "day_start": 21,
+          "day_end": 30
+        },
+        {
+          "part": "B",
+          "label": "LM6-LM11",
+          "month": 5,
+          "days": 20,
+          "hours": 80,
+          "day_start": 131,
+          "day_end": 150
+        }
+      ],
+      "module_count": 11,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Returns of Financial Assets and Instruments",
+          "hours": 6,
+          "file": "docs/topics/02-quantitative-methods/lm-01-returns-of-financial-assets-and-instruments.md"
+        },
+        {
+          "lm": 2,
+          "name": "Types of Financial Returns",
+          "hours": 8,
+          "file": "docs/topics/02-quantitative-methods/lm-02-types-of-financial-returns.md"
+        },
+        {
+          "lm": 3,
+          "name": "Benchmarking Returns",
+          "hours": 8,
+          "file": "docs/topics/02-quantitative-methods/lm-03-benchmarking-returns.md"
+        },
+        {
+          "lm": 4,
+          "name": "The Time Value of Money in Finance",
+          "hours": 10,
+          "file": "docs/topics/02-quantitative-methods/lm-04-the-time-value-of-money-in-finance.md"
+        },
+        {
+          "lm": 5,
+          "name": "Statistical Characteristics of Asset Returns",
+          "hours": 8,
+          "file": "docs/topics/02-quantitative-methods/lm-05-statistical-characteristics-of-asset-returns.md"
+        },
+        {
+          "lm": 6,
+          "name": "Statistical Distributions for Financial Asset Prices and Returns",
+          "hours": 14,
+          "file": "docs/topics/02-quantitative-methods/lm-06-statistical-distributions-for-financial-asset-prices-and-ret.md"
+        },
+        {
+          "lm": 7,
+          "name": "Estimation and Hypothesis Testing",
+          "hours": 18,
+          "file": "docs/topics/02-quantitative-methods/lm-07-estimation-and-hypothesis-testing.md"
+        },
+        {
+          "lm": 8,
+          "name": "The Return and Risk of a Financial Portfolio",
+          "hours": 14,
+          "file": "docs/topics/02-quantitative-methods/lm-08-the-return-and-risk-of-a-financial-portfolio.md"
+        },
+        {
+          "lm": 9,
+          "name": "Simulation of Financial Asset Prices and Returns",
+          "hours": 10,
+          "file": "docs/topics/02-quantitative-methods/lm-09-simulation-of-financial-asset-prices-and-returns.md"
+        },
+        {
+          "lm": 10,
+          "name": "Applications of Simple Linear Regression in Finance",
+          "hours": 18,
+          "file": "docs/topics/02-quantitative-methods/lm-10-applications-of-simple-linear-regression-in-finance.md"
+        },
+        {
+          "lm": 11,
+          "name": "Introduction to Financial Data Science",
+          "hours": 6,
+          "file": "docs/topics/02-quantitative-methods/lm-11-introduction-to-financial-data-science.md"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "03-corporate-issuers",
+      "name": "Corporate Issuers",
+      "short": "CI",
+      "weight": "6-9%",
+      "month": 2,
+      "days": 12,
+      "hours": 48,
+      "day_start": 31,
+      "day_end": 42,
+      "parallel": false,
+      "module_count": 7,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Organizational Forms, Corporate Issuer Features, and Ownership",
+          "hours": 5,
+          "file": "docs/topics/03-corporate-issuers/lm-01-organizational-forms-corporate-issuer-features-and-ownership.md"
+        },
+        {
+          "lm": 2,
+          "name": "Investors and Other Stakeholders",
+          "hours": 5,
+          "file": "docs/topics/03-corporate-issuers/lm-02-investors-and-other-stakeholders.md"
+        },
+        {
+          "lm": 3,
+          "name": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+          "hours": 7,
+          "file": "docs/topics/03-corporate-issuers/lm-03-corporate-governance-conflicts-mechanisms-risks-and-benefits.md"
+        },
+        {
+          "lm": 4,
+          "name": "Working Capital and Liquidity",
+          "hours": 8,
+          "file": "docs/topics/03-corporate-issuers/lm-04-working-capital-and-liquidity.md"
+        },
+        {
+          "lm": 5,
+          "name": "Capital Investments and Capital Allocation",
+          "hours": 12,
+          "file": "docs/topics/03-corporate-issuers/lm-05-capital-investments-and-capital-allocation.md"
+        },
+        {
+          "lm": 6,
+          "name": "Capital Structure",
+          "hours": 8,
+          "file": "docs/topics/03-corporate-issuers/lm-06-capital-structure.md"
+        },
+        {
+          "lm": 7,
+          "name": "Business Models",
+          "hours": 3,
+          "file": "docs/topics/03-corporate-issuers/lm-07-business-models.md"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "slug": "04-equity-investments",
+      "name": "Equity Investments",
+      "short": "EQ",
+      "weight": "11-14%",
+      "month": 2,
+      "days": 18,
+      "hours": 72,
+      "day_start": 43,
+      "day_end": 60,
+      "parallel": false,
+      "module_count": 12,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Equity Instrument Features",
+          "hours": 4,
+          "file": "docs/topics/04-equity-investments/lm-01-equity-instrument-features.md"
+        },
+        {
+          "lm": 2,
+          "name": "Equity Jurisdictions, Classes, and the Voting Process",
+          "hours": 4,
+          "file": "docs/topics/04-equity-investments/lm-02-equity-jurisdictions-classes-and-the-voting-process.md"
+        },
+        {
+          "lm": 3,
+          "name": "Equity Issuance and Trading",
+          "hours": 6,
+          "file": "docs/topics/04-equity-investments/lm-03-equity-issuance-and-trading.md"
+        },
+        {
+          "lm": 4,
+          "name": "Sources of Equity Returns",
+          "hours": 6,
+          "file": "docs/topics/04-equity-investments/lm-04-sources-of-equity-returns.md"
+        },
+        {
+          "lm": 5,
+          "name": "Introduction to Equity Valuation",
+          "hours": 5,
+          "file": "docs/topics/04-equity-investments/lm-05-introduction-to-equity-valuation.md"
+        },
+        {
+          "lm": 6,
+          "name": "Discounted Cash Flow (DCF) and Growth Models",
+          "hours": 12,
+          "file": "docs/topics/04-equity-investments/lm-06-discounted-cash-flow-dcf-and-growth-models.md"
+        },
+        {
+          "lm": 7,
+          "name": "Relative Value Equity Valuation Approaches",
+          "hours": 10,
+          "file": "docs/topics/04-equity-investments/lm-07-relative-value-equity-valuation-approaches.md"
+        },
+        {
+          "lm": 8,
+          "name": "Financial Statement Forecasting in Equity Valuation",
+          "hours": 5,
+          "file": "docs/topics/04-equity-investments/lm-08-financial-statement-forecasting-in-equity-valuation.md"
+        },
+        {
+          "lm": 9,
+          "name": "Industry and Competitive Analysis",
+          "hours": 6,
+          "file": "docs/topics/04-equity-investments/lm-09-industry-and-competitive-analysis.md"
+        },
+        {
+          "lm": 10,
+          "name": "Company Analysis: Past, Present, and Future",
+          "hours": 5,
+          "file": "docs/topics/04-equity-investments/lm-10-company-analysis-past-present-and-future.md"
+        },
+        {
+          "lm": 11,
+          "name": "Equity Analyst Research Reports",
+          "hours": 3,
+          "file": "docs/topics/04-equity-investments/lm-11-equity-analyst-research-reports.md"
+        },
+        {
+          "lm": 12,
+          "name": "The Capital Asset Pricing Model, Market Model, and Other Factor-Based Equity Models",
+          "hours": 6,
+          "file": "docs/topics/04-equity-investments/lm-12-the-capital-asset-pricing-model-market-model-and-other-facto.md"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "05-portfolio-management",
+      "name": "Portfolio Management",
+      "short": "PM",
+      "weight": "8-12%",
+      "month": 3,
+      "days": 10,
+      "hours": 40,
+      "day_start": 61,
+      "day_end": 70,
+      "parallel": false,
+      "module_count": 6,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Portfolio Risk and Return: Part I",
+          "hours": 9,
+          "file": "docs/topics/05-portfolio-management/lm-01-portfolio-risk-and-return-part-i.md"
+        },
+        {
+          "lm": 2,
+          "name": "Portfolio Risk and Return: Part II",
+          "hours": 11,
+          "file": "docs/topics/05-portfolio-management/lm-02-portfolio-risk-and-return-part-ii.md"
+        },
+        {
+          "lm": 3,
+          "name": "Portfolio Management: An Overview",
+          "hours": 5,
+          "file": "docs/topics/05-portfolio-management/lm-03-portfolio-management-an-overview.md"
+        },
+        {
+          "lm": 4,
+          "name": "Basics of Portfolio Planning and Construction",
+          "hours": 7,
+          "file": "docs/topics/05-portfolio-management/lm-04-basics-of-portfolio-planning-and-construction.md"
+        },
+        {
+          "lm": 5,
+          "name": "The Behavioral Biases of Individuals",
+          "hours": 4,
+          "file": "docs/topics/05-portfolio-management/lm-05-the-behavioral-biases-of-individuals.md"
+        },
+        {
+          "lm": 6,
+          "name": "Introduction to Risk Management",
+          "hours": 4,
+          "file": "docs/topics/05-portfolio-management/lm-06-introduction-to-risk-management.md"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "slug": "06-fixed-income",
+      "name": "Fixed Income",
+      "short": "FI",
+      "weight": "11-14%",
+      "month": 3,
+      "days": 20,
+      "hours": 80,
+      "day_start": 71,
+      "day_end": 90,
+      "parallel": false,
+      "module_count": 19,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Fixed-Income Instrument Features",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-01-fixed-income-instrument-features.md"
+        },
+        {
+          "lm": 2,
+          "name": "Fixed-Income Cash Flows and Types",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-02-fixed-income-cash-flows-and-types.md"
+        },
+        {
+          "lm": 3,
+          "name": "Fixed-Income Issuance and Trading",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-03-fixed-income-issuance-and-trading.md"
+        },
+        {
+          "lm": 4,
+          "name": "Fixed-Income Markets for Corporate Issuers",
+          "hours": 4,
+          "file": "docs/topics/06-fixed-income/lm-04-fixed-income-markets-for-corporate-issuers.md"
+        },
+        {
+          "lm": 5,
+          "name": "Fixed-Income Markets for Government Issuers",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-05-fixed-income-markets-for-government-issuers.md"
+        },
+        {
+          "lm": 6,
+          "name": "Fixed-Income Bond Valuation: Prices and Yields",
+          "hours": 6,
+          "file": "docs/topics/06-fixed-income/lm-06-fixed-income-bond-valuation-prices-and-yields.md"
+        },
+        {
+          "lm": 7,
+          "name": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-07-yield-and-yield-spread-measures-for-fixed-rate-bonds.md"
+        },
+        {
+          "lm": 8,
+          "name": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+          "hours": 4,
+          "file": "docs/topics/06-fixed-income/lm-08-yield-and-yield-spread-measures-for-floating-rate-instrument.md"
+        },
+        {
+          "lm": 9,
+          "name": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+          "hours": 6,
+          "file": "docs/topics/06-fixed-income/lm-09-the-term-structure-of-interest-rates-spot-par-and-forward-cu.md"
+        },
+        {
+          "lm": 10,
+          "name": "Interest Rate Risk and Return",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-10-interest-rate-risk-and-return.md"
+        },
+        {
+          "lm": 11,
+          "name": "Yield-Based Bond Duration Measures and Properties",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-11-yield-based-bond-duration-measures-and-properties.md"
+        },
+        {
+          "lm": 12,
+          "name": "Yield-Based Bond Convexity and Portfolio Properties",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-12-yield-based-bond-convexity-and-portfolio-properties.md"
+        },
+        {
+          "lm": 13,
+          "name": "Curve-Based and Empirical Fixed-Income Risk Measures",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-13-curve-based-and-empirical-fixed-income-risk-measures.md"
+        },
+        {
+          "lm": 14,
+          "name": "Credit Risk",
+          "hours": 4,
+          "file": "docs/topics/06-fixed-income/lm-14-credit-risk.md"
+        },
+        {
+          "lm": 15,
+          "name": "Credit Analysis for Government Issuers",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-15-credit-analysis-for-government-issuers.md"
+        },
+        {
+          "lm": 16,
+          "name": "Credit Analysis for Corporate Issuers",
+          "hours": 5,
+          "file": "docs/topics/06-fixed-income/lm-16-credit-analysis-for-corporate-issuers.md"
+        },
+        {
+          "lm": 17,
+          "name": "Fixed-Income Securitization",
+          "hours": 3,
+          "file": "docs/topics/06-fixed-income/lm-17-fixed-income-securitization.md"
+        },
+        {
+          "lm": 18,
+          "name": "Asset-Backed Security (ABS) Instrument and Market Features",
+          "hours": 4,
+          "file": "docs/topics/06-fixed-income/lm-18-asset-backed-security-abs-instrument-and-market-features.md"
+        },
+        {
+          "lm": 19,
+          "name": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+          "hours": 4,
+          "file": "docs/topics/06-fixed-income/lm-19-mortgage-backed-security-mbs-instrument-and-market-features.md"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "07-derivatives",
+      "name": "Derivatives",
+      "short": "DER",
+      "weight": "5-8%",
+      "month": 4,
+      "days": 15,
+      "hours": 60,
+      "day_start": 91,
+      "day_end": 105,
+      "parallel": false,
+      "module_count": 10,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Derivative Instrument and Derivative Market Features",
+          "hours": 4,
+          "file": "docs/topics/07-derivatives/lm-01-derivative-instrument-and-derivative-market-features.md"
+        },
+        {
+          "lm": 2,
+          "name": "Forward Commitment and Contingent Claim Features and Instruments",
+          "hours": 7,
+          "file": "docs/topics/07-derivatives/lm-02-forward-commitment-and-contingent-claim-features-and-instrum.md"
+        },
+        {
+          "lm": 3,
+          "name": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+          "hours": 4,
+          "file": "docs/topics/07-derivatives/lm-03-derivative-benefits-risks-and-issuer-and-investor-uses.md"
+        },
+        {
+          "lm": 4,
+          "name": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+          "hours": 7,
+          "file": "docs/topics/07-derivatives/lm-04-arbitrage-replication-and-the-cost-of-carry-in-pricing-deriv.md"
+        },
+        {
+          "lm": 5,
+          "name": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+          "hours": 8,
+          "file": "docs/topics/07-derivatives/lm-05-pricing-and-valuation-of-forward-contracts-and-for-an-underl.md"
+        },
+        {
+          "lm": 6,
+          "name": "Pricing and Valuation of Futures Contracts",
+          "hours": 5,
+          "file": "docs/topics/07-derivatives/lm-06-pricing-and-valuation-of-futures-contracts.md"
+        },
+        {
+          "lm": 7,
+          "name": "Pricing and Valuation of Interest Rate and Other Swaps",
+          "hours": 6,
+          "file": "docs/topics/07-derivatives/lm-07-pricing-and-valuation-of-interest-rate-and-other-swaps.md"
+        },
+        {
+          "lm": 8,
+          "name": "Pricing and Valuation of Options",
+          "hours": 7,
+          "file": "docs/topics/07-derivatives/lm-08-pricing-and-valuation-of-options.md"
+        },
+        {
+          "lm": 9,
+          "name": "Option Replication Using Put-Call Parity",
+          "hours": 6,
+          "file": "docs/topics/07-derivatives/lm-09-option-replication-using-put-call-parity.md"
+        },
+        {
+          "lm": 10,
+          "name": "Valuing a Derivative Using a One-Period Binomial Model",
+          "hours": 6,
+          "file": "docs/topics/07-derivatives/lm-10-valuing-a-derivative-using-a-one-period-binomial-model.md"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "08-alternative-investments",
+      "name": "Alternative Investments",
+      "short": "AI",
+      "weight": "7-10%",
+      "month": 4,
+      "days": 15,
+      "hours": 60,
+      "day_start": 106,
+      "day_end": 120,
+      "parallel": false,
+      "module_count": 7,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Alternative Investment Features, Methods, and Structures",
+          "hours": 9,
+          "file": "docs/topics/08-alternative-investments/lm-01-alternative-investment-features-methods-and-structures.md"
+        },
+        {
+          "lm": 2,
+          "name": "Alternative Investment Performance and Returns",
+          "hours": 10,
+          "file": "docs/topics/08-alternative-investments/lm-02-alternative-investment-performance-and-returns.md"
+        },
+        {
+          "lm": 3,
+          "name": "Investments in Private Capital: Equity and Debt",
+          "hours": 10,
+          "file": "docs/topics/08-alternative-investments/lm-03-investments-in-private-capital-equity-and-debt.md"
+        },
+        {
+          "lm": 4,
+          "name": "Real Estate and Infrastructure",
+          "hours": 10,
+          "file": "docs/topics/08-alternative-investments/lm-04-real-estate-and-infrastructure.md"
+        },
+        {
+          "lm": 5,
+          "name": "Natural Resources",
+          "hours": 8,
+          "file": "docs/topics/08-alternative-investments/lm-05-natural-resources.md"
+        },
+        {
+          "lm": 6,
+          "name": "Hedge Funds",
+          "hours": 8,
+          "file": "docs/topics/08-alternative-investments/lm-06-hedge-funds.md"
+        },
+        {
+          "lm": 7,
+          "name": "Introduction to Digital Assets",
+          "hours": 5,
+          "file": "docs/topics/08-alternative-investments/lm-07-introduction-to-digital-assets.md"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "slug": "09-economics",
+      "name": "Economics",
+      "short": "ECON",
+      "weight": "6-9%",
+      "month": 5,
+      "days": 10,
+      "hours": 40,
+      "day_start": 121,
+      "day_end": 130,
+      "parallel": false,
+      "module_count": 8,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "The Firm and Market Structures",
+          "hours": 7,
+          "file": "docs/topics/09-economics/lm-01-the-firm-and-market-structures.md"
+        },
+        {
+          "lm": 2,
+          "name": "Understanding Business Cycles",
+          "hours": 5,
+          "file": "docs/topics/09-economics/lm-02-understanding-business-cycles.md"
+        },
+        {
+          "lm": 3,
+          "name": "Fiscal Policy",
+          "hours": 5,
+          "file": "docs/topics/09-economics/lm-03-fiscal-policy.md"
+        },
+        {
+          "lm": 4,
+          "name": "Monetary Policy",
+          "hours": 6,
+          "file": "docs/topics/09-economics/lm-04-monetary-policy.md"
+        },
+        {
+          "lm": 5,
+          "name": "Introduction to Geopolitics",
+          "hours": 3,
+          "file": "docs/topics/09-economics/lm-05-introduction-to-geopolitics.md"
+        },
+        {
+          "lm": 6,
+          "name": "International Trade",
+          "hours": 4,
+          "file": "docs/topics/09-economics/lm-06-international-trade.md"
+        },
+        {
+          "lm": 7,
+          "name": "Capital Flows and the FX Market",
+          "hours": 5,
+          "file": "docs/topics/09-economics/lm-07-capital-flows-and-the-fx-market.md"
+        },
+        {
+          "lm": 8,
+          "name": "Exchange Rate Calculations",
+          "hours": 5,
+          "file": "docs/topics/09-economics/lm-08-exchange-rate-calculations.md"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "slug": "10-ethics",
+      "name": "Ethical and Professional Standards",
+      "short": "ETH",
+      "weight": "15-20%",
+      "month": "1-5 (parallel)",
+      "days": 150,
+      "hours": 150,
+      "day_start": 1,
+      "day_end": 150,
+      "parallel": true,
+      "module_count": 10,
+      "modules": [
+        {
+          "lm": 1,
+          "name": "Ethics and Trust in the Investment Profession",
+          "hours": 10,
+          "file": "docs/topics/10-ethics/lm-01-ethics-and-trust-in-the-investment-profession.md"
+        },
+        {
+          "lm": 2,
+          "name": "Code of Ethics and Standards of Professional Conduct",
+          "hours": 15,
+          "file": "docs/topics/10-ethics/lm-02-code-of-ethics-and-standards-of-professional-conduct.md"
+        },
+        {
+          "lm": 3,
+          "name": "Guidance for Standard I: Professionalism",
+          "hours": 20,
+          "file": "docs/topics/10-ethics/lm-03-guidance-for-standard-i-professionalism.md"
+        },
+        {
+          "lm": 4,
+          "name": "Guidance for Standard II: Integrity of Capital Markets",
+          "hours": 15,
+          "file": "docs/topics/10-ethics/lm-04-guidance-for-standard-ii-integrity-of-capital-markets.md"
+        },
+        {
+          "lm": 5,
+          "name": "Guidance for Standard III: Duties to Clients",
+          "hours": 20,
+          "file": "docs/topics/10-ethics/lm-05-guidance-for-standard-iii-duties-to-clients.md"
+        },
+        {
+          "lm": 6,
+          "name": "Guidance for Standard IV: Duties to Employers",
+          "hours": 12,
+          "file": "docs/topics/10-ethics/lm-06-guidance-for-standard-iv-duties-to-employers.md"
+        },
+        {
+          "lm": 7,
+          "name": "Guidance for Standard V: Investment Analysis, Recommendations, and Actions",
+          "hours": 20,
+          "file": "docs/topics/10-ethics/lm-07-guidance-for-standard-v-investment-analysis-recommendations.md"
+        },
+        {
+          "lm": 8,
+          "name": "Guidance for Standard VI: Conflicts of Interest",
+          "hours": 13,
+          "file": "docs/topics/10-ethics/lm-08-guidance-for-standard-vi-conflicts-of-interest.md"
+        },
+        {
+          "lm": 9,
+          "name": "Guidance for Standard VII: Responsibilities as a CFA Institute Member or CFA Candidate",
+          "hours": 10,
+          "file": "docs/topics/10-ethics/lm-09-guidance-for-standard-vii-responsibilities-as-a-cfa-institut.md"
+        },
+        {
+          "lm": 10,
+          "name": "Application of the Code and Standards: Level I",
+          "hours": 15,
+          "file": "docs/topics/10-ethics/lm-10-application-of-the-code-and-standards-level-i.md"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "topics": 10,
+    "modules": 102,
+    "hours": 750
+  }
+}
